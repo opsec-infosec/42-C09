@@ -58,11 +58,15 @@ void *execute(void *var) {
 	char *sep1 = ".";
 	char *test2_str = "8Time|is9an0illusion-";
 	char *sep2 = "8|90-";
+	char *test3_str = "88Time|||is9an0illusion-09";
+	char *sep3 = "8|90-";
 	
+
 	char **split;
 
-	printf("\n\nQuote:\nA common mistake that people make when trying to design\nsomething completely foolproof is to underestimate the \ningenuity of complete fools \n\n");
+	printf("\nQuote:\nA common mistake that people make when trying to design\nsomething completely foolproof is to underestimate the \ningenuity of complete fools \n");
 
+	printf("\nft_split.c C09-ex03\n\n");
 	printf("Test String = %s  | Sep = %s\n",test_str,sep);
 	split = ft_split(test_str,sep);
 	output(split);
@@ -73,6 +77,10 @@ void *execute(void *var) {
 
 	printf("Test String = %s  | Sep = %s\n",test2_str,sep2);
 	split = ft_split(test2_str,sep2);
+	output(split);
+
+	printf("Test String = %s  | Sep = %s\n",test3_str,sep3);
+	split = ft_split(test3_str,sep3);
 	output(split);
 
 	func_done = 1;
