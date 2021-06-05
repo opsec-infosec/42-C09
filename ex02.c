@@ -59,7 +59,7 @@ void *execute(void *var) {
 	char *test2_str = "8Time|is9an0illusion-";
 	char *sep2 = "8|90-";
 	char *test3_str = "88Time|||is9an0illusion-09";
-	char *sep3 = "8|90-";
+	char *sep3 = "8|90zZ-";
 	
 
 	char **split;
