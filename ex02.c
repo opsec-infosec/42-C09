@@ -47,7 +47,7 @@ void output(char **str) {
 }
 
 //
-//  This is the Test Case that we will execution.. If it takes too long, you will have a timeout
+//  This is the Test Case that we will execute.. If it takes too long, you will have a timeout
 //
 void *execute(void *var) {
 	var = 0x00;
